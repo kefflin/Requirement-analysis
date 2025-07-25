@@ -171,4 +171,32 @@ Hotel Booking System Design
 As you can see in the above design there is a Kafka consumer for notification, notification consumers send the notification. That could be to the customer/manager, like whenever a customer books a hotel notification is sent to the manager or if a new offers come it’s notified to the customer.
 
 Apache Streaming service takes the data from messaging queue and stores it in Hadoop which could be used for BigData analysis for multiple purposes. Like business analysis, finding potential customers, audience categorisations etc.
+
+# Use Case Diagrams
+Use Case Diagrams are visual representations used in software requirement analysis to illustrate how different users (actors) interact with a system and the key functionalities (use cases) the system provides. They provide a high-level overview of the system's scope, making it easier to understand the relationships between users and system functions.
+
+Key Elements of Use Case Diagrams:
+Actors: Entities (users or external systems) that interact with the system.
+
+Use Cases: Functionalities or services provided by the system.
+
+Relationships: Associations between actors and use cases, such as “include”, “extend”, or simple interaction.
+
+Benefits of Use Case Diagrams:
+Simplifies Complex Requirements: Presents a clear and concise visualization of how users interact with the system.
+
+Enhances Communication: Acts as a shared reference for stakeholders, ensuring alignment between technical and non-technical teams.
+
+Defines System Boundaries: Clearly shows what is inside and outside the scope of the system.
+
+Supports Requirement Validation: Helps verify that all functional requirements are captured and appropriately mapped to user interactions.
+
+Foundation for Further Design: Serves as a blueprint for developing detailed system models, workflows, and test cases.
+
+Example Use Case Diagram for Booking Management System:
+
+
+<img width="571" height="491" alt="booking diagram drawio" src="https://github.com/user-attachments/assets/454bca66-8a98-4b39-9177-73f8630ec9a0" />
+
+
   

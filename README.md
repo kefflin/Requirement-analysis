@@ -129,7 +129,8 @@ Final Design
 Hotel Management Service
 This is the service that will be given to hotel managers/owners. In this managers can manage their hotel's related information. Here managers have a separate portal to access the data and update it.
 
-https://miro.medium.com/v2/resize:fit:720/format:webp/1*23U2OxzOo4R8arOJhFbtpw.png
+<img width="1100" height="235" alt="image" src="https://github.com/user-attachments/assets/4437e81d-21ed-437d-8624-0dd8e2a74e16" />
+
 
 Hotel Management Service Architecture
 Whenever an API is triggered from the hotel manager app the initial request is been sent to the load balancer, then the load balancer distributes the requests to the desired server to process. The hotel service cluster has multiple servers that have the container for hotel service-related API.
@@ -141,7 +142,8 @@ Whenever any data is updated in the database API sends the data to the CDN(Conte
 Customer Service (Search + Booking)
 This is the service that will be given to customers. In this customers can search and book a hotel. Here customers have a separate portal to access the data and process it.
 
-Zoom image will be displayed
+<img width="720" height="250" alt="image" src="https://github.com/user-attachments/assets/8419a8e8-cc69-4d26-be5c-5c4f3b5f7c43" />
+
 
 Customer Service Architecture
 The CDN app shows the content to customers like the nearby hotels, recommendations, offers etc.
@@ -159,13 +161,15 @@ Any changes made in the database will be sent to the messaging queue. Then the c
 View Booking Service
 Here all current and old booking details are shown to the user. Both managers and customers use this service.
 
-Zoom image will be displayed
+<img width="720" height="159" alt="image" src="https://github.com/user-attachments/assets/69c283aa-a1f6-457c-b451-89e693cc7375" />
+
 
 View Booking Architecture
 The Customer/Manager app sends the request to the load balancer and it distributes the request to booking management servers. Then the service request for data through Redis and Cassandra. through Redis, it requests recent data as it is a caching server. Which could reduce the loading time on the app side.
 
 Final Design
-Zoom image will be displayed
+<img width="720" height="443" alt="image" src="https://github.com/user-attachments/assets/a7ff557f-022b-45c1-9857-08fc1ed45461" />
+
 
 Hotel Booking System Design
 As you can see in the above design there is a Kafka consumer for notification, notification consumers send the notification. That could be to the customer/manager, like whenever a customer books a hotel notification is sent to the manager or if a new offers come it’s notified to the customer.

@@ -136,7 +136,7 @@ This is the service that will be given to hotel managers/owners. In this manager
 
 
 
-#Hotel Management Service Architecture
+# Hotel Management Service Architecture
 
 Whenever an API is triggered from the hotel manager app the initial request is been sent to the load balancer, then the load balancer distributes the requests to the desired server to process. The hotel service cluster has multiple servers that have the container for hotel service-related API.
 
@@ -153,7 +153,7 @@ This is the service that will be given to customers. In this customers can searc
 
 
 
-#Customer Service Architecture
+# Customer Service Architecture
 
 The CDN app shows the content to customers like the nearby hotels, recommendations, offers etc.
 
@@ -177,7 +177,7 @@ Here all current and old booking details are shown to the user. Both managers an
 
 
 
-#View Booking Architecture
+# View Booking Architecture
 
 The Customer/Manager app sends the request to the load balancer and it distributes the request to booking management servers. Then the service request for data through Redis and Cassandra. through Redis, it requests recent data as it is a caching server. Which could reduce the loading time on the app side.
 
@@ -189,7 +189,7 @@ Final Design
 
 
 
-#Hotel Booking System Design
+# Hotel Booking System Design
 
 As you can see in the above design there is a Kafka consumer for notification, notification consumers send the notification. That could be to the customer/manager, like whenever a customer books a hotel notification is sent to the manager or if a new offers come it’s notified to the customer.
 

@@ -80,3 +80,44 @@ Requirement Analysis involves several critical activities that help ensure a cle
   .Ensures that the documented requirements are correct, complete, feasible, and aligned with stakeholder expectations.
 
   .Activities include requirement reviews, walkthroughs, and formal approval from stakeholders to verify accuracy and acceptance.
+  
+#Types of Requirements.
+
+In software development, requirements are generally classified into Functional Requirements and Non-functional Requirements. Understanding the distinction between the two is essential for building a system that not only performs its intended tasks but also meets quality standards.
+
++Functional Requirements
+Functional Requirements define what the system should do. They describe the specific behaviors, features, and functions that the software must support to meet the business objectives.
+
+Definition:
+Functional Requirements specify the system's functional aspects, outlining the tasks, data handling, and operations the system must perform.
+
+Examples for a Booking Management Project:
+The system shall allow users to create, modify, and cancel bookings.
+
+The system shall send booking confirmation emails to users upon successful reservation.
+
+The admin shall be able to view and manage all booking records from a centralized dashboard.
+
+The system shall allow users to filter available booking slots by date, time, and location.
+
+The system shall automatically update availability when a booking is confirmed or cancelled.
+
+Non-functional Requirements
+Non-functional Requirements define how the system should perform. They describe the quality attributes of the system, such as performance, security, usability, and scalability.
+
+Definition:
+Non-functional Requirements specify the system's operational characteristics, setting constraints and standards for how the system functions rather than what it does.
+
+Examples for a Booking Management Project:
+The system shall be able to handle up to 1,000 concurrent booking requests without performance degradation.
+
+The system shall ensure all user data is encrypted both in transit and at rest.
+
+The system shall have an uptime availability of 99.9% per month.
+
+The booking interface shall load within 3 seconds on mobile and desktop devices.
+
+The system shall support multi-language interfaces, including English and Swahili.
+
+The system shall comply with GDPR and local data protection regulations.
+  

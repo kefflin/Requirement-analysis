@@ -51,31 +51,31 @@ A well-defined set of requirements ensures that the final product meets the user
 
 Requirement Analysis involves several critical activities that help ensure a clear understanding of what the software should achieve. The five key activities are:
 
-. Requirement Gathering:
+1. Requirement Gathering:
 
   . Involves collecting information about the needs and expectations of stakeholders (clients, users, management).
 
   . Techniques include interviews, questionnaires, workshops, observations, and reviewing existing documentation.
 
-. Requirement Elicitation:
+2. Requirement Elicitation:
 
   . Focuses on uncovering implicit, hidden, or unclear needs that stakeholders may not express directly.
 
   . Involves brainstorming sessions, prototyping, use case development, and scenario analysis to explore user needs in depth.
 
-. Requirement Documentation:
+3. Requirement Documentation:
 
   . Captures and organizes all gathered requirements in a structured format.
 
   . Common documentation includes Software Requirements Specification (SRS), User Stories, Use Cases, and Requirement Traceability        Matrices (RTM).
 
-. Requirement Analysis and Modeling:
+4. Requirement Analysis and Modeling:
 
   . Involves analyzing gathered requirements to detect conflicts, redundancies, or gaps.
 
   . Uses visual models like Data Flow Diagrams (DFD), Entity-Relationship Diagrams (ERD), and Unified Modeling Language (UML) diagrams    to represent system requirements.
 
-. Requirement Validation:
+5. Requirement Validation:
 
   . Ensures that the documented requirements are correct, complete, feasible, and aligned with stakeholder expectations.
 

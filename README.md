@@ -221,5 +221,40 @@ Example Use Case Diagram for Booking Management System:
 
 <img width="571" height="491" alt="booking diagram drawio" src="https://github.com/user-attachments/assets/454bca66-8a98-4b39-9177-73f8630ec9a0" />
 
+# Acceptance Criteria
+Acceptance Criteria are a set of predefined conditions or statements that a software feature or user story must satisfy to be considered complete and acceptable by stakeholders. They define the scope, boundaries, and expected outcomes of a feature, ensuring that the development team delivers exactly what is needed.
+
+Importance of Acceptance Criteria in Requirement Analysis:
+Clarifies Expectations: Provides a shared understanding between stakeholders and the development team regarding what constitutes a successful implementation.
+
+Defines Done: Establishes a clear definition of when a feature or functionality is considered complete and ready for delivery.
+
+Reduces Miscommunication: Prevents ambiguity by specifying detailed conditions that a feature must meet.
+
+Facilitates Testing: Serves as the basis for writing test cases to validate that the feature works as intended.
+
+Supports Scope Management: Helps in managing scope by clearly outlining what is included or excluded from a feature.
+
+Example: Acceptance Criteria for “Checkout” Feature in Booking Management System
+Feature Name: Checkout
+
+..Acceptance Criteria:
+
+..The system shall display a summary of booking details (date, time, service, price) before checkout.
+
+..The user shall be able to select a preferred payment method (Credit Card, Mobile Money, or PayPal).
+
+..The system shall validate all payment details before processing.
+
+..Upon successful payment, the system shall display a confirmation message with a unique booking reference number.
+
+..The system shall send an email and SMS confirmation to the user within 1 minute of successful checkout.
+
+..If the payment fails, the system shall display an error message and allow the user to retry.
+
+..The system shall update booking availability in real-time after successful checkout.
+
+..The checkout process shall be secured using SSL encryption to protect user data.
+
 
   

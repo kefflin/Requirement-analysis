@@ -51,35 +51,35 @@ A well-defined set of requirements ensures that the final product meets the user
 
 Requirement Analysis involves several critical activities that help ensure a clear understanding of what the software should achieve. The five key activities are:
 
-. .Requirement Gathering:
+. Requirement Gathering:
 
-  . .Involves collecting information about the needs and expectations of stakeholders (clients, users, management).
+  . Involves collecting information about the needs and expectations of stakeholders (clients, users, management).
 
-  . .Techniques include interviews, questionnaires, workshops, observations, and reviewing existing documentation.
+  . Techniques include interviews, questionnaires, workshops, observations, and reviewing existing documentation.
 
-. .Requirement Elicitation:
+. Requirement Elicitation:
 
-  . .Focuses on uncovering implicit, hidden, or unclear needs that stakeholders may not express directly.
+  . Focuses on uncovering implicit, hidden, or unclear needs that stakeholders may not express directly.
 
-  . .Involves brainstorming sessions, prototyping, use case development, and scenario analysis to explore user needs in depth.
+  . Involves brainstorming sessions, prototyping, use case development, and scenario analysis to explore user needs in depth.
 
-. .Requirement Documentation:
+. Requirement Documentation:
 
-  . .Captures and organizes all gathered requirements in a structured format.
+  . Captures and organizes all gathered requirements in a structured format.
 
-  . .Common documentation includes Software Requirements Specification (SRS), User Stories, Use Cases, and Requirement Traceability        Matrices (RTM).
+  . Common documentation includes Software Requirements Specification (SRS), User Stories, Use Cases, and Requirement Traceability        Matrices (RTM).
 
-. .Requirement Analysis and Modeling:
+. Requirement Analysis and Modeling:
 
-  . .Involves analyzing gathered requirements to detect conflicts, redundancies, or gaps.
+  . Involves analyzing gathered requirements to detect conflicts, redundancies, or gaps.
 
-  . .Uses visual models like Data Flow Diagrams (DFD), Entity-Relationship Diagrams (ERD), and Unified Modeling Language (UML) diagrams    to represent system requirements.
+  . Uses visual models like Data Flow Diagrams (DFD), Entity-Relationship Diagrams (ERD), and Unified Modeling Language (UML) diagrams    to represent system requirements.
 
-. .Requirement Validation:
+. Requirement Validation:
 
-  . .Ensures that the documented requirements are correct, complete, feasible, and aligned with stakeholder expectations.
+  . Ensures that the documented requirements are correct, complete, feasible, and aligned with stakeholder expectations.
 
- . .Activities include requirement reviews, walkthroughs, and formal approval from stakeholders to verify accuracy and acceptance.
+ . Activities include requirement reviews, walkthroughs, and formal approval from stakeholders to verify accuracy and acceptance.
   
 # Types of Requirements.
 
@@ -238,23 +238,23 @@ Supports Scope Management: Helps in managing scope by clearly outlining what is 
 Example: Acceptance Criteria for “Checkout” Feature in Booking Management System
 Feature Name: Checkout
 
-. .Acceptance Criteria:
+.Acceptance Criteria:
 
-. .The system shall display a summary of booking details (date, time, service, price) before checkout.
+1. The system shall display a summary of booking details (date, time, service, price) before checkout.
 
-. .The user shall be able to select a preferred payment method (Credit Card, Mobile Money, or PayPal).
+2. The user shall be able to select a preferred payment method (Credit Card, Mobile Money, or PayPal).
 
-. .The system shall validate all payment details before processing.
+3. The system shall validate all payment details before processing.
 
-. .Upon successful payment, the system shall display a confirmation message with a unique booking reference number.
+4. Upon successful payment, the system shall display a confirmation message with a unique booking reference number.
 
-. .The system shall send an email and SMS confirmation to the user within 1 minute of successful checkout.
+5. The system shall send an email and SMS confirmation to the user within 1 minute of successful checkout.
 
-. .If the payment fails, the system shall display an error message and allow the user to retry.
+6. If the payment fails, the system shall display an error message and allow the user to retry.
 
-. .The system shall update booking availability in real-time after successful checkout.
+7. The system shall update booking availability in real-time after successful checkout.
 
-. .The checkout process shall be secured using SSL encryption to protect user data.
+8. The checkout process shall be secured using SSL encryption to protect user data.
 
 
   

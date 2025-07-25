@@ -129,7 +129,7 @@ Final Design
 Hotel Management Service
 This is the service that will be given to hotel managers/owners. In this managers can manage their hotel's related information. Here managers have a separate portal to access the data and update it.
 
-Zoom image will be displayed
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*23U2OxzOo4R8arOJhFbtpw.png
 
 Hotel Management Service Architecture
 Whenever an API is triggered from the hotel manager app the initial request is been sent to the load balancer, then the load balancer distributes the requests to the desired server to process. The hotel service cluster has multiple servers that have the container for hotel service-related API.

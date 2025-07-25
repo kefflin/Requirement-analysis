@@ -51,32 +51,32 @@ A well-defined set of requirements ensures that the final product meets the user
 
 Requirement Analysis involves several critical activities that help ensure a clear understanding of what the software should achieve. The five key activities are:
 
-Requirement Gathering:
+.Requirement Gathering:
 
-Involves collecting information about the needs and expectations of stakeholders (clients, users, management).
+  .Involves collecting information about the needs and expectations of stakeholders (clients, users, management).
 
-Techniques include interviews, questionnaires, workshops, observations, and reviewing existing documentation.
+  .Techniques include interviews, questionnaires, workshops, observations, and reviewing existing documentation.
 
-Requirement Elicitation:
+.Requirement Elicitation:
 
-Focuses on uncovering implicit, hidden, or unclear needs that stakeholders may not express directly.
+  .Focuses on uncovering implicit, hidden, or unclear needs that stakeholders may not express directly.
 
-Involves brainstorming sessions, prototyping, use case development, and scenario analysis to explore user needs in depth.
+  .Involves brainstorming sessions, prototyping, use case development, and scenario analysis to explore user needs in depth.
 
-Requirement Documentation:
+.Requirement Documentation:
 
-Captures and organizes all gathered requirements in a structured format.
+  .Captures and organizes all gathered requirements in a structured format.
 
-Common documentation includes Software Requirements Specification (SRS), User Stories, Use Cases, and Requirement Traceability Matrices (RTM).
+  .Common documentation includes Software Requirements Specification (SRS), User Stories, Use Cases, and Requirement Traceability        Matrices (RTM).
 
-Requirement Analysis and Modeling:
+.Requirement Analysis and Modeling:
 
-Involves analyzing gathered requirements to detect conflicts, redundancies, or gaps.
+  .Involves analyzing gathered requirements to detect conflicts, redundancies, or gaps.
 
-Uses visual models like Data Flow Diagrams (DFD), Entity-Relationship Diagrams (ERD), and Unified Modeling Language (UML) diagrams to represent system requirements.
+  .Uses visual models like Data Flow Diagrams (DFD), Entity-Relationship Diagrams (ERD), and Unified Modeling Language (UML) diagrams    to represent system requirements.
 
-Requirement Validation:
+.Requirement Validation:
 
-Ensures that the documented requirements are correct, complete, feasible, and aligned with stakeholder expectations.
+  .Ensures that the documented requirements are correct, complete, feasible, and aligned with stakeholder expectations.
 
-Activities include requirement reviews, walkthroughs, and formal approval from stakeholders to verify accuracy and acceptance.
+  .Activities include requirement reviews, walkthroughs, and formal approval from stakeholders to verify accuracy and acceptance.

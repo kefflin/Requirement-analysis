@@ -46,3 +46,37 @@ Identifying and addressing requirements early in the SDLC helps avoid costly cha
 
 3. Ensures Delivery of Quality Software Solutions
 A well-defined set of requirements ensures that the final product meets the user’s needs and performs reliably in real-world scenarios. Requirement Analysis contributes to building software that aligns with business goals, enhances user satisfaction, and complies with technical and regulatory standards.
+
+# Key Activities in Requirement Analysis
+
+Requirement Analysis involves several critical activities that help ensure a clear understanding of what the software should achieve. The five key activities are:
+
+Requirement Gathering:
+
+Involves collecting information about the needs and expectations of stakeholders (clients, users, management).
+
+Techniques include interviews, questionnaires, workshops, observations, and reviewing existing documentation.
+
+Requirement Elicitation:
+
+Focuses on uncovering implicit, hidden, or unclear needs that stakeholders may not express directly.
+
+Involves brainstorming sessions, prototyping, use case development, and scenario analysis to explore user needs in depth.
+
+Requirement Documentation:
+
+Captures and organizes all gathered requirements in a structured format.
+
+Common documentation includes Software Requirements Specification (SRS), User Stories, Use Cases, and Requirement Traceability Matrices (RTM).
+
+Requirement Analysis and Modeling:
+
+Involves analyzing gathered requirements to detect conflicts, redundancies, or gaps.
+
+Uses visual models like Data Flow Diagrams (DFD), Entity-Relationship Diagrams (ERD), and Unified Modeling Language (UML) diagrams to represent system requirements.
+
+Requirement Validation:
+
+Ensures that the documented requirements are correct, complete, feasible, and aligned with stakeholder expectations.
+
+Activities include requirement reviews, walkthroughs, and formal approval from stakeholders to verify accuracy and acceptance.
